@@ -33,6 +33,12 @@ namespace ConsoleFriend.Tests
 
             StringAssert.Contains(Friend.GetResponse("Когда экзамен по Тестированию?"), "экзамен");
         }
+
+        [TestMethod]
+        public void ShouldExit_Variant1()
+        {
+            Assert.IsTrue(Friend.ShouldExit("пока"));
+        }
     }
 
 }
