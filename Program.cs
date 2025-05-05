@@ -10,6 +10,7 @@ namespace ConsoleFriend
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
