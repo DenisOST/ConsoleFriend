@@ -28,5 +28,11 @@ namespace ConsoleFriend
 
             return "Я тебя не понимаю. Спроси что-нибудь другое.";
         }
+
+        public static bool ShouldExit(string input)
+        {
+            var msg = input.ToLower();
+            return msg == "пока";
+        }
     }
 }
