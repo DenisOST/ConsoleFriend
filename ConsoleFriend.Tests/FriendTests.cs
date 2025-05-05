@@ -26,6 +26,13 @@ namespace ConsoleFriend.Tests
 
             StringAssert.Contains(Friend.GetResponse("Расскажешь анекдот?"), "анекдот");
         }
+
+        [TestMethod]
+        public void TestExamResponse()
+        {
+
+            StringAssert.Contains(Friend.GetResponse("Когда экзамен по Тестированию?"), "экзамен");
+        }
     }
 
 }
