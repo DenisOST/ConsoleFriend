@@ -43,7 +43,6 @@ namespace ConsoleFriend.Tests
 
         public void ShouldExit_Variant2()
         {
-
             Assert.IsTrue(Friend.ShouldExit("выход"));
         }
     }
