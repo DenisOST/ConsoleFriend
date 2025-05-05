@@ -41,6 +41,7 @@ namespace ConsoleFriend.Tests
             Assert.IsTrue(Friend.ShouldExit("пока"));
         }
 
+        [TestMethod]
         public void ShouldExit_Variant2()
         {
             Assert.IsTrue(Friend.ShouldExit("выход"));
