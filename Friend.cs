@@ -32,7 +32,7 @@ namespace ConsoleFriend
         public static bool ShouldExit(string input)
         {
             var msg = input.ToLower();
-            return msg == "пока";
+            return msg == "пока" || msg == "выход";
         }
     }
 }
