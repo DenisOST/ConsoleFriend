@@ -4,7 +4,7 @@ using System;
 namespace ConsoleFriend.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class FriendTests
     {
         [TestMethod]
         public void TestMethod1()
