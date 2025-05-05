@@ -7,8 +7,10 @@ namespace ConsoleFriend.Tests
     public class FriendTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestGreeting()
         {
+            var result = Friend.GetGreeting("Олег");
+            Assert.AreEqual("Привет, Олег! Как дела?", result);
         }
     }
 }
